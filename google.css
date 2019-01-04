@@ -41,14 +41,15 @@ body {
 }
 
 .search-buttons {
-  background-color: #e0e0d1;
+  background-color: #eaeae1;
   border: 0;
-  color: #5b5b3e;
+  color: #6a6a48;
   font-weight: bold;
   height: 35px;
   border-radius: 3px;
   width: auto;
   margin: 10px;
+  padding: 10px 15px 10px 15px;
 }
 
 .search-buttons:hover {
@@ -79,7 +80,9 @@ li {
 .header-left {
   background-color: red;
   display: grid;
-  align-items: left;
+  align-items: start;
+  float: left;
+  grid-area: left;
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-template-areas: "a b";
@@ -88,6 +91,7 @@ li {
 .header-right {
   background-color: blue;
   display: grid;
+  grid-area: right;
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-template-areas: "a b c d";
