@@ -1,127 +1,123 @@
 body {
-    background-color: white;
+  background-color: white;
 }
 
 .middle {
-    background-color: grey;
-    bottom: 0;
-    height: 250px;
-    left: 0;
-    right: 0;
-    top:0;
-    margin: auto;
-    position: absolute;
-    width: auto;
+  bottom: 0;
+  height: 250px;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  position: absolute;
+  width: auto;
 }
 
 .google-logo {
-    display: block;
-    margin: auto;
-    width: auto;
+  display: block;
+  margin: auto;
+  width: auto;
 }
 
-.bar-and-buttons {
-    margin: auto;
-    width: 60%;
-    background-color: yellow;
-    padding: 10px;
+.bar {
+  margin: auto;
+  width: 550px;
+  padding: 10px;
 }
 
 .search-bar {
-    background-color: green;
-    
-    height: 35px;
-    width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  box-shadow: 1px 2px #f5f5f0;
+  color: #eaeae1;
+  height: 35px;
+  width: 100%;
 }
 
 .search-buttons-container {
-    
-    text-align: center;
-    
-    background-color: orange;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
 }
 
 .search-buttons {
-    height: 35px;
-    width: auto;
-    background-color: purple;
-    margin: 10px;
-    
+  background-color: #e0e0d1;
+  border: 0;
+  color: #5b5b3e;
+  font-weight: bold;
+  height: 35px;
+  border-radius: 3px;
+  width: auto;
+  margin: 10px;
+}
+
+.search-buttons:hover {
+  background-color: #eaeae1;
 }
 
 li {
-    background-color: #333;
-    display: inline;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
+  background-color: #333;
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
 }
 
 .header-grid {
-    
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "left right";
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "left right";
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
 }
 
 .header-left {
-    background-color: red;
-    
-    display: grid;
-    align-items: left;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "a b";
-    
+  background-color: red;
+  display: grid;
+  align-items: left;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "a b";
 }
 
 .header-right {
-    background-color: blue;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "a b c d";
+  background-color: blue;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "a b c d";
 }
 
 .footer-grid {
-    bottom: 0;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "left right";
-    left: 0;
-    position: fixed;
-    right: 0;
-    width: 100%;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "left right";
+  left: 0;
+  position: fixed;
+  right: 0;
+  width: 100%;
 }
 
 .footer-left {
-    background-color: red;
-    display: grid;
-    align-items: left;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "a b";
-
+  background-color: red;
+  display: grid;
+  align-items: left;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "a b";
 }
 
 .footer-right {
-    background-color: blue;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "a b c";
+  background-color: blue;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "a b c";
 }
